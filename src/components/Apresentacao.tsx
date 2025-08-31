@@ -34,12 +34,12 @@ export function Apresentacao() {
           <img 
             src={tecnologiaImg}
             alt="Ilustração de tecnologias de Ciência de Dados" 
-            className="w-full max-w-lg lg:max-w-xl xl:max-w-2xl animate-fade-in" 
+            className="w-full max-w-lg lg:max-w-md xl:max-w-lg animate-fade-in -translate-y-8 lg:translate-y-0" 
           />
           <img 
             src={dataScientistIllustration}
             alt="Cientista de Dados trabalhando" 
-            className="absolute w-1/3 md:w-1/3 max-w-[180px] lg:w-2/3 lg:max-w-sm bottom-5 left-1/2 -translate-x-1/2 animate-float-slow" 
+            className="absolute w-1/3 md:w-1/3 max-w-[180px] lg:w-2/3 lg:max-w-sm bottom-2 lg:-bottom-10 left-1/2 -translate-x-1/2 animate-float-slow" 
           />
         </div>
       </div>

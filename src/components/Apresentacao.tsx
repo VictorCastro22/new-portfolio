@@ -20,7 +20,7 @@ export function Apresentacao() {
               Fale Comigo
             </a>
             <a 
-              href="/seu-cv.pdf"
+              href="/Curriculo-Victor-Castro.pdf"
               download 
               className="px-8 py-3 border border-slate-600 text-slate-300 font-semibold rounded-lg shadow-lg hover:border-cyan-500 hover:text-cyan-400 flex items-center justify-center gap-2 transition-colors duration-300"
             >

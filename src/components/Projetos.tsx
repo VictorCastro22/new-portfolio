@@ -14,7 +14,7 @@ export function ProjectsSection() {
   return (
     <section id="projetos" className="bg-slate-900 py-20 px-8">
       <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-white text-center mb-4">Meus Projetos Recentes</h2>
+        <h2 className="text-4xl font-bold text-white text-center mb-4">Meus Projetos</h2>
         <p className="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
           Aqui estão alguns dos projetos em que trabalhei, demonstrando minhas habilidades em diversas áreas da Ciência de Dados.
         </p>

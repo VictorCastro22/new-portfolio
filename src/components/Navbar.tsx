@@ -14,9 +14,9 @@ export function Navbar() {
 
         <div className="hidden md:flex space-x-8">
           <a href="#hero" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Início</a>
-          <a href="#about" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Sobre Mim</a>
-          <a href="#projects" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Projetos</a>
-          <a href="#contact" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Contato</a>
+          <a href="#sobre" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Sobre Mim</a>
+          <a href="#projetos" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Projetos</a>
+          <a href="#contato" className="text-slate-300 hover:text-cyan-400 transition-colors duration-200">Contato</a>
         </div>
 
 
@@ -32,9 +32,9 @@ export function Navbar() {
         <div className="md:hidden bg-slate-800 pb-4">
           <nav className="flex flex-col items-center space-y-4">
             <a href="#hero" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Início</a>
-            <a href="#about" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Sobre Mim</a>
-            <a href="#projects" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Projetos</a>
-            <a href="#contact" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Contato</a>
+            <a href="#sobre" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Sobre Mim</a>
+            <a href="#projetos" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Projetos</a>
+            <a href="#contato" onClick={() => setIsOpen(false)} className="text-slate-300 hover:text-cyan-400 transition-colors duration-200 w-full text-center py-2">Contato</a>
           </nav>
         </div>
       )}

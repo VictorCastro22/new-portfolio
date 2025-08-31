@@ -14,7 +14,7 @@ export function Apresentacao() {
           </h1>
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
-              href="#contact" 
+              href="#contato" 
               className="px-8 py-3 bg-cyan-600 text-white font-semibold rounded-lg shadow-lg hover:bg-cyan-700 transition-colors duration-300"
             >
               Fale Comigo

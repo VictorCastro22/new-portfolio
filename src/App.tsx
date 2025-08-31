@@ -2,6 +2,7 @@ import { Navbar } from './components/Navbar';
 import { Apresentacao } from './components/Apresentacao';
 import { SobreMim } from './components/SobreMim';
 import { ProjectsSection } from './components/Projetos';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Apresentacao />
       <SobreMim />
       <ProjectsSection />
+      <Footer />
     </div>
   );
 }

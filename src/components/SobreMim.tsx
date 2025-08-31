@@ -4,11 +4,9 @@ import { BriefcaseIcon, AcademicCapIcon, CheckBadgeIcon, LinkIcon } from '@heroi
 const skills = [
   { name: 'Python', percentage: '90%' },   
   { name: 'SQL', percentage: '80%' },        
-  { name: 'Pandas', percentage: '80%' }, 
-  { name: 'Numpy', percentage: '60%' }, 
-  { name: 'Estatística', percentage: '60%' }, 
-  { name: 'Power BI', percentage: '90%' },    
-  { name: 'DAX', percentage: '80%' },        
+  { name: 'Pandas e Numpy', percentage: '80%' }, 
+  { name: 'Estatística', percentage: '70%' }, 
+  { name: 'Power BI e DAX', percentage: '90%' },         
   { name: 'Excel', percentage: '90%' },        
   { name: 'Git & Github', percentage: '80%' },
   { name: 'Scrum', percentage: '100%' },      
@@ -66,11 +64,12 @@ export function SobreMim() {
           <div className="lg:col-span-3">
             <h3 className="text-2xl font-semibold text-white mb-4">Visão Geral</h3>
             <p className="text-slate-400 leading-relaxed mb-12">
-              Como cientista de dados, minha paixão é transformar dados brutos em insights acionáveis que impulsionam decisões estratégicas. 
-              Com uma base sólida em engenharia de software e estatística, busco resolver problemas de negócio complexos, desde a 
-              extração e modelagem de dados até a criação de modelos de machine learning. Minha abordagem combina rigor técnico 
-              com uma comunicação clara, garantindo que as soluções não apenas funcionem, mas também agreguem valor real e compreensível 
-              para a empresa.
+              Sou analista de dados com experiência em todo o ciclo analítico, desde a manipulação e modelagem até a visualização. 
+              Tenho amplo domínio de Excel, incluindo fórmulas avançadas e macros que otimizam tarefas e análises. Trabalho com Power BI, 
+              desenvolvendo relatórios dinâmicos e painéis interativos com DAX. No Python, 
+              utilizo principalmente Pandas e NumPy para tratamento e análise de dados, além de explorar o Django para aplicações web. 
+              Também possuo sólida experiência em SQL (T-SQL, SQL Server e PostgreSQL), 
+              construindo consultas e estruturas eficientes para apoiar decisões estratégicas.
             </p>
 
             <h3 className="text-2xl font-semibold text-white mb-6">Experiência Profissional</h3>

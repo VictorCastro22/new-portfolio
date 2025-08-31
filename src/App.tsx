@@ -1,13 +1,15 @@
 import { Navbar } from './components/Navbar';
 import { Apresentacao } from './components/Apresentacao';
 import { SobreMim } from './components/SobreMim';
+import { ProjectsSection } from './components/Projetos';
 
 function App() {
   return (
-    <div className="bg-slate-900 font-sans antialiased text-gray-100">
+    <div className="bg-slate-900">
       <Navbar />
       <Apresentacao />
       <SobreMim />
+      <ProjectsSection />
     </div>
   );
 }

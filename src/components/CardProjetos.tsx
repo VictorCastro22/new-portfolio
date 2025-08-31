@@ -8,12 +8,19 @@ interface ProjectCardProps {
 
 export function ProjetosCard({ project }: ProjectCardProps) {
   return (
-    <div className="group relative rounded-lg overflow-hidden shadow-lg bg-slate-800">
 
-      <img src={project.imageUrl} alt={project.title} className="w-full h-64 object-cover object-center transition-transform duration-500 group-hover:scale-110" />
+    <div
+      tabIndex={0}
+      className="group relative rounded-lg overflow-hidden shadow-lg bg-slate-800 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+    >
+      <img
+        src={project.imageUrl}
+        alt={project.title}
+        className="w-full h-64 object-cover object-center transition-transform duration-500 group-hover:scale-110"
+      />
 
 
-      <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-6 text-center">
+      <div className="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 group-focus:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center p-6 text-center">
         <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
         <p className="text-slate-300 text-sm mb-4">{project.description}</p>
         <div className="flex space-x-4">
